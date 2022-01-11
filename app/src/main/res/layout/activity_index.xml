@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Index">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/index"
+        app:layout_constraintBottom_toTopOf="@+id/bannerLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Spinner
+            android:id="@+id/menuButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/white_menu_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.473"
+            app:srcCompat="@drawable/white_menu_icon" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/profileButton"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/menuButton"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/profileButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/index"
+            android:contentDescription="@string/profileIcon"
+            app:layout_constraintEnd_toStartOf="@+id/cartButton"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/white_profile_icon" />
+
+        <ImageButton
+            android:id="@+id/cartButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="@color/index"
+            android:contentDescription='@string/cartIcon'
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/white_shopping_cart_icon" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bannerLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="506dp"
+        android:background="@drawable/apparel_banner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#40000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/itemButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="@string/apparelTitle"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/title"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/newArrivalsTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="60dp"
+        android:background="@color/index"
+        android:fontFamily="sans-serif-condensed-light"
+        android:padding="5dp"
+        android:text="@string/newArrivalsTitle"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/heading"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bestSellerTitle"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bannerLayout" />
+
+    <ImageView
+        android:id="@+id/newArrivalsImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/newArrivalsDescription"
+        app:layout_constraintEnd_toEndOf="@+id/newArrivalsTitle"
+        app:layout_constraintStart_toStartOf="@+id/newArrivalsTitle"
+        app:layout_constraintTop_toBottomOf="@+id/newArrivalsTitle"
+        app:srcCompat="@drawable/new_arrivals_banner_item" />
+
+    <TextView
+        android:id="@+id/newArrivalsName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/newArrivalsDescription"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text"
+        app:layout_constraintEnd_toEndOf="@+id/newArrivalsImage"
+        app:layout_constraintStart_toStartOf="@+id/newArrivalsImage"
+        app:layout_constraintTop_toBottomOf="@+id/newArrivalsImage" />
+
+    <TextView
+        android:id="@+id/newArrivalsPrice"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/fortyFive"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text"
+        app:layout_constraintEnd_toEndOf="@+id/newArrivalsName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/newArrivalsName"
+        app:layout_constraintTop_toBottomOf="@+id/newArrivalsName" />
+
+    <TextView
+        android:id="@+id/bestSellerTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="25dp"
+        android:background="@color/index"
+        android:fontFamily="sans-serif-condensed-light"
+        android:padding="5dp"
+        android:text="@string/bestSellersTitle"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/heading"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/newArrivalsTitle"
+        app:layout_constraintTop_toBottomOf="@+id/bannerLayout" />
+
+    <ImageView
+        android:id="@+id/bestSellerImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/bestSellerDescription"
+        app:layout_constraintEnd_toEndOf="@+id/bestSellerTitle"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/bestSellerTitle"
+        app:layout_constraintTop_toBottomOf="@+id/bestSellerTitle"
+        app:srcCompat="@drawable/best_seller_banner_item" />
+
+    <TextView
+        android:id="@+id/bestSellerName"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/bestSellerDescription"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text"
+        app:layout_constraintEnd_toEndOf="@+id/bestSellerImage"
+        app:layout_constraintStart_toStartOf="@+id/bestSellerImage"
+        app:layout_constraintTop_toBottomOf="@+id/bestSellerImage" />
+
+    <TextView
+        android:id="@+id/bestSellerPrice"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/fifteen"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text"
+        app:layout_constraintEnd_toEndOf="@+id/bestSellerImage"
+        app:layout_constraintStart_toStartOf="@+id/bestSellerImage"
+        app:layout_constraintTop_toBottomOf="@+id/bestSellerName" />
+
+    <Button
+        android:id="@+id/viewAllButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="341dp"
+        android:backgroundTint="@color/index"
+        android:text="@string/viewAllTitle"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bannerLayout"
+        app:layout_constraintVertical_bias="0.316" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.otakuparadise">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OtakuParadise">
+        <activity android:name=".Cart"></activity>
+        <activity android:name=".Purchase" />
+        <activity android:name=".ViewAll" />
+        <activity android:name=".BestSellers" />
+        <activity android:name=".NewArrivals" />
+        <activity android:name=".Posters" />
+        <activity android:name=".Figurines" />
+        <activity android:name=".Accessories" />
+        <activity android:name=".Apparel" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Index" />
+        <activity android:name=".Register" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

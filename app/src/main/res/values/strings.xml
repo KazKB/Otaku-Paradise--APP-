@@ -1,0 +1,123 @@
+<resources>
+    <!--Screen Titles-->
+    <string name="app_name">Otaku Paradise</string>
+    <string name="accessoriesTitle">Accessories</string>
+    <string name="apparelTitle">Apparel</string>
+    <string name="bestSellersTitle">Best Seller</string>
+    <string name="cartTitle">Cart</string>
+    <string name="figurinesTitle">Figurines</string>
+    <string name="newArrivalsTitle">New Arrivals</string>
+    <string name="postersTitle">Posters</string>
+    <string name="profileTitle">Profile</string>
+    <string name="purchaseTitle">Purchase</string>
+    <string name="viewAllTitle">View All</string>
+    <string name="welcomeTitle">Welcome</string>
+
+    <!--Drop Down Items-->
+    <string-array name="dropDown">
+        <item>Navigation Bar</item>
+        <item>Apparel</item>
+        <item>Accessories</item>
+        <item>Figurines</item>
+        <item>Posters</item>
+        <item>Log Out</item>
+    </string-array>
+
+    <string-array name="dropDown2">
+        <item>Navigation Bar</item>
+        <item>Home</item>
+        <item>Apparel</item>
+        <item>Accessories</item>
+        <item>Figurines</item>
+        <item>Posters</item>
+        <item>Log Out</item>
+    </string-array>
+
+    <string-array name="sizeDropDown">
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+    </string-array>
+
+    <string-array name="quantityDropDown">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <!--Purchase & Cart Items-->
+    <string name="add">Add To Cart</string>
+    <string name="cartImage">Cart Image</string>
+    <string name="empty">Add An Item</string>
+    <string name="quantity">Quantity: </string>
+    <string name="remove">Remove From Cart</string>
+    <string name="size">Size: </string>
+
+    <!--Sort Items-->
+    <string-array name="sort">
+        <item>Sort</item>
+        <item>Just For Show</item>
+    </string-array>
+
+    <!--Banner Names-->
+    <string-array name="bannerName">
+        <item>Apparel</item>
+        <item>Accessories</item>
+        <item>Figurines</item>
+        <item>Posters</item>
+    </string-array>
+
+    <!--Login Related-->
+    <string name="address">Address:</string>
+    <string name="addressHint">Address</string>
+    <string name="changePassword">Change Password</string>
+    <string name="confirmPassword">Confirm Password:</string>
+    <string name="confirmPasswordHint">Confirm Password</string>
+    <string name="dob">Date Of Birth:</string>
+    <string name="date">(dd)</string>
+    <string name="email">Email:</string>
+    <string name="emailHint">Email@email.com</string>
+    <string name="month">(mm)</string>
+    <string name="name">Name:</string>
+    <string name="nameHint">First Name  Last Name</string>
+    <string name="newPassword">New Password:</string>
+    <string name="newPasswordHint">New Password</string>
+    <string name="username">Username:</string>
+    <string name="usernameHint">Username</string>
+    <string name="password">Password:</string>
+    <string name="passwordHint">Password (6–12 Characters)</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="registerRedirect">New To Otaku Paradise, Click Here To Register</string>
+    <string name="year">(yyyy)</string>
+
+    <!--Headings-->
+    <string name="welcomeMessage">Welcome to Otaku Paradise</string>
+    <string name="loginMessage">Please Login To Continue</string>
+    <string name="registerMessage">Please Register To Continue</string>
+
+    <!--Icon Descriptions-->
+    <string name="cartIcon">Shopping Cart Button</string>
+    <string name="homeIcon">Home Button</string>
+    <string name="menuIcon">Menu Button</string>
+    <string name="profileIcon">Profile Button</string>
+    <string name="profileScreenIcon">Profile Icon</string>
+
+    <!--Item Descriptions-->
+    <string name="apparelDescription">Naruto and Sasuke T-Shirt</string>
+    <string name="accessoryDescription">Sasuke Funko Pop + Key Chain</string>
+    <string name="bestSellerDescription">Kurumi Key Chain</string>
+    <string name="figurineDescription">Levi Figurine</string>
+    <string name="posterDescription">Naruto Shippuden Poster</string>
+    <string name="newArrivalsDescription">My Hero Academia Key Chains</string>
+
+    <!--Item Prices-->
+    <string name="fifteen">$15.00</string>
+    <string name="twentyFive">$25.00</string>
+    <string name="fortyFive">$45.00</string>
+    <string name="fifty">$50.00</string>
+    <string name="seventyFive">$75.00</string>
+</resources>

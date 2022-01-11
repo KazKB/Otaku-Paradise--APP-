@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="borderStrokeWidth">1.5dp</dimen>
+    <dimen name="cornerRadius">5dp</dimen>
+    <dimen name="heading">25sp</dimen>
+    <dimen name="icon">30dp</dimen>
+    <dimen name="screenIcon">50dp</dimen>
+    <dimen name="title">35sp</dimen>
+    <dimen name="text">15sp</dimen>
+</resources>
